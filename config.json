@@ -1,0 +1,6 @@
+{
+    "deletePost": true,
+    "removeComments": false,
+    "runtimeSeconds": 2000,
+    "postLink": "userposts.xboxlive.com/users/xuid(xxxxxxxx)/posts/xxxxx-xxxxxx-xxxxxx-xxxxxx/timelines/User/xxxxxx"
+  }
