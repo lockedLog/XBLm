@@ -6,4 +6,4 @@ The message will send a post from your feed. The link to said post will need to 
 
 Stats like messages sent, rate limit, account bans/locks, and more are updated and displayed in real time.
 
-I do not condone the use of this tool to send nefarious messages, spam, or anything else against xbox TOS. I will not be providing a tool or explaining how to grab the necessary authentication tokens.
+I do not condone the use of this tool to send nefarious messages, spam, or anything else against xbox TOS. I will not be providing a tool or explaining how to grab the necessary authentication tokens. THIS IS AN OLD VERSION
