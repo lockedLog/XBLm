@@ -1,9 +1,9 @@
 # XBLm
 
-XBLm is a tool that automates messaging on xbox live. Messages target specific games and their audience, and is one of the customizable features. There are five game options added by default to choose from for this tool. 
+XBLm is a tool that automates messaging on xbox live. Messages target specific games via looking for group scraping (both requests to join and post owners)
 
-The message will send a post from your feed. The link to said post will need to be inputted in the config file prior to running. Other options to configure include amount of time to run for, whether to delete the post when the tool has finished running, and whether to automatically remove comments on the post.
+The message will send a post from your feed. The tool will create this post itself and grab the url necessary to send it. 
 
-Stats like messages sent, rate limit, account bans/locks, and more are updated and displayed in real time.
+Stats like messages sent, rate limit, account bans/locks, comments and likes on post, and more are updated and displayed in real time.
 
-I do not condone the use of this tool to send nefarious messages, spam, or anything else against xbox TOS. I will not be providing a tool or explaining how to grab the necessary authentication tokens. THIS IS AN OLD VERSION
+I do not condone the use of this tool to send nefarious messages, spam, or anything else against xbox TOS. I will not be providing a tool or explaining how to grab the necessary authentication tokens. Version has been slightly updated.
