@@ -10,17 +10,17 @@ class Watcher(FileSystemEventHandler):
         if event.src_path.endswith("test.txt"):
             print("test.txt deleted, checking FullTokens.txt...")
 
-            sleep(30)  # Initial delay before checking
+            sleep(30)  
 
             full_tokens_path = "./Accounts/FullTokens.txt"
             done_file_path = "./Accounts/done.txt"
 
-            # Check if FullTokens.txt exists
+            
             if not os.path.exists(full_tokens_path):
                 print(f"File {full_tokens_path} does not exist. Skipping script execution.")
                 return
             
-            # Count the number of lines in FullTokens.txt
+            
             with open(full_tokens_path, "r") as f:
                 line_count = sum(1 for _ in f)
 
@@ -43,7 +43,7 @@ class Watcher(FileSystemEventHandler):
                 else:
                     print(f"{done_file_path} does not exist.")
 
-# Set up the observer
+
 path_to_watch = "./Accounts/"
 event_handler = Watcher()
 observer = Observer()
@@ -57,4 +57,5 @@ try:
         time.sleep(2)
 except KeyboardInterrupt:
     observer.stop()
+
 observer.join()
