@@ -29,7 +29,7 @@ class Watcher(FileSystemEventHandler):
             if line_count > 11:
                 print("Line count is greater than 11, running script...")
                 try:
-                    subprocess.run(["python3", "allofallfn.py"], check=True)
+                    subprocess.run(["python3", "main.py"], check=True)
                     print("Script executed successfully.")
                 except subprocess.CalledProcessError as e:
                     print(f"Error executing script: {e}")
@@ -59,3 +59,4 @@ except KeyboardInterrupt:
     observer.stop()
 
 observer.join()
+
